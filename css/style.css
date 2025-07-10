@@ -199,7 +199,7 @@ img {
     }
 
     .headshot-wrapper.headshot-meet {
-        width: 35vw;
+        width: 32vw;
         right: 9%;
     }
 }
@@ -268,11 +268,22 @@ input.input-text {
     margin: auto;
 }
 
-.prioroties-image {
+.priorities-image {
     max-width: 250px;
     display: block;
     border-radius: 20px;
     margin: 15px auto;
+}
+
+@media (min-width: 1400px) {
+    
+.heading2 {
+    max-width: 350px;
+}
+
+.priorities-image {
+    max-width: 350px;
+}
 }
 
 /* footer */
@@ -377,7 +388,7 @@ footer a {
     }
 
     .hero-para span {
-        font-size: 25vw;
+        font-size: 20vw;
     }
 
     .hero-para.hero-para2 span {
