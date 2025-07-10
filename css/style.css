@@ -163,6 +163,7 @@ img {
     background: #fff;
     color: #E1001D;
     font-family: "Barlow Condensed", serif;
+    src: url(https://fonts.gstatic.com/s/barlowcondensed/v12/HTxyL3I-JCGChYJ8VI-L6OO_au7B6xTrY3TmtYkGUrs.woff2) format('woff2');
     font-weight: 700;
     font-style: italic;
     line-height: 1.1;
