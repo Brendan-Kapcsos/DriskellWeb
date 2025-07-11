@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700&family=Playfair+Display:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
 
 /* General Styling */
 body {
@@ -53,9 +53,9 @@ img {
     text-align: center;
     color: #fff;
     position: relative;
-    font-family: 'Barlow Condensed';
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
-    font-wieght: bold;
+    font-weight: bold;
 }
 
 .hero-para span {
@@ -130,16 +130,12 @@ img {
     background-color: #0D1319;
     width: 100px;
     height: 100%;
-    -ms-transform: skewX(-15deg);
-    -webkit-transform: skewX(-15deg);
     transform: skewX(-15deg);
     top: 0;
     right: -50px;
 }
 
 .hero-page-header.hero-page-header-priorities::after {
-    content: "";
-    position: absolute;
     background-color: #42474c;
     width: 80px;
 }
@@ -164,7 +160,7 @@ img {
     bottom: 0;
     background: #fff;
     color: #E1001D;
-    font-family: "Barlow Condensed", serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
     font-style: italic;
     line-height: 1.1;
@@ -206,7 +202,6 @@ img {
     }
 }
 
-
 .form-heading {
     color: #0D1319;
     text-align: center;
@@ -245,9 +240,9 @@ input.input-text {
     background: #E1001D;
     border: none !important;
     border-radius: 20px;
-    font-family: 'Barlow Condensed';
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
-    font-wieght: bold;
+    font-weight: bold;
     box-shadow: none !important;
     padding: 0.5rem 1.5rem;
     transition: 0.3s;
@@ -262,9 +257,8 @@ input.input-text {
 
 
 /* priorities page */
-
 .heading2 {
-    font-family: "Barlow Condensed", serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 1.75rem;
     text-align: center;
     line-height: 1;
@@ -280,23 +274,21 @@ input.input-text {
 }
 
 @media (min-width: 1400px) {
-    
-.heading2 {
-    max-width: 350px;
-}
+    .heading2 {
+        max-width: 350px;
+    }
 
-.priorities-image {
-    max-width: 350px;
-}
+    .priorities-image {
+        max-width: 350px;
+    }
 }
 
 /* footer */
-
 footer h1,
 footer a {
-    font-family: 'Barlow Condensed';
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
-    font-wieght: bold;
+    font-weight: bold;
     color: #fff;
 }
 
@@ -319,7 +311,6 @@ footer a {
     }
 }
 
-
 @media (max-width: 768px) {
     .footer-para {
         padding: 0 0.5rem;
@@ -339,7 +330,6 @@ footer a {
         width: 20px;
     }
 }
-
 
 @media (max-width: 567px) {
     header>div.justify-content-between.py-3 {
@@ -440,8 +430,7 @@ footer a {
         width: 8vw;
     }
 
-footer h1{
-font-size: 1.5rem;
-}
-
+    footer h1 {
+        font-size: 1.5rem;
+    }
 }
